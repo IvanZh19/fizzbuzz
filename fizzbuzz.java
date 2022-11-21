@@ -1,8 +1,11 @@
 import java.util.Scanner;
 
-Scanner s = new Scanner(System.in);
+public class fizzbuzz{
+    public static void main(String[] args){
+
+Scanner scanner = new Scanner(System.in);
 System.out.println("Bruh enter a number");
-double number = s.nextDouble();
+double number = scanner.nextDouble();
 
 
 
@@ -14,3 +17,6 @@ if (number%3 == 0)
 
 if (number%5 == 0)
     System.out.println("Buzz");
+
+    }
+}
